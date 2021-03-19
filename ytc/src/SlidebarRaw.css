@@ -1,0 +1,42 @@
+.slidebarraw
+{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.slidebarraw__icon
+{  
+     color:#606060;
+    font-size: large !important;
+}
+.slidebarraw__title
+{
+    font-family: sans-serif;
+    flex:1;
+    font-size: 12px;
+    font-weight: 500px;
+    margin-left: 10px;
+ 
+}
+.slidebarraw:hover{
+    background-color:lightgray;
+    cursor: pointer;
+}
+.slidebarraw:hover > .slidebarraw__icon
+{
+    background-color:lightgray;
+}
+
+.slidebarraw:hover > .slidebarraw__title
+{
+   font-weight: bold; 
+}
+.slidebarraw.selected
+{
+      background-color:lightgray;
+}
+.slidebarraw.selected >.slidebarraw__icon{
+  
+    color:red;
+    
+}
